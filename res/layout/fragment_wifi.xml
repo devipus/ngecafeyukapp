@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AllFragment"
+    android:background="#424142" >
+     
+    <ScrollView 
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/vertical_scrollview_bg"
+        android:scrollbarTrackVertical="@drawable/vertical_scrollview_line">
+        
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+	       android:layout_marginLeft="8dp"
+	       android:layout_marginRight="8dp"
+           android:orientation="vertical">
+           
+	        <LinearLayout 
+	            android:id="@+id/lwif1"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/hompizz" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi1"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif1"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif2"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/ayamsriwijaya" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi2"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif2"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif3"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/starbucks" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi3"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif3"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif4"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/rotinarsis" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi4"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif4"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+
+	        <LinearLayout 
+	            android:id="@+id/lwif5"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/upnormal" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi5"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif5"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif6"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/hotspot" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi6"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif6"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif7"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/basengla" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi7"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif7"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif8"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/tehaba" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi8"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif8"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:id="@+id/lwif9"
+	            android:layout_width="270dp"
+	            android:layout_height="110dp"
+	            android:orientation="vertical"
+	           	android:layout_marginBottom="8dp"
+	            android:background="@drawable/layout_normal">
+	
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="11dp"
+	                android:orientation="horizontal">
+	                
+	                <ImageView
+		                android:layout_width="125dp"
+		                android:layout_height="80dp"
+		                android:layout_marginTop="5dp"
+		                android:src="@drawable/flowertage" />
+	                
+	                <LinearLayout 
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="8dp"
+		                android:orientation="vertical">
+	                	
+	                   <TextView 
+	                       android:text="@string/tvWifi9"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:textSize="15sp"
+	                       android:textColor="#424142"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:layout_marginTop="3dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"
+	                       android:text="@string/tvAlamat"
+	                       android:textSize="12sp"
+	                       android:textStyle="bold"/>
+	                   
+	                   <TextView 
+	                       android:text="@string/tvAlWif9"
+	                       android:textSize="12sp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_height="wrap_content"/>
+	                
+	              	</LinearLayout>
+	            </LinearLayout>
+	        </LinearLayout>
+	        	        
+	    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
+	        

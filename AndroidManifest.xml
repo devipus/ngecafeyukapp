@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="contoh.ngecafeyuk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="contoh.ngecafeyuk.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="contoh.ngecafeyuk.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/piring"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="contoh.ngecafeyuk.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.AllFragment"
+            android:label="@string/title_activity_all_fragment" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.KekinianFragment"
+            android:label="@string/title_activity_kekinian_fragment" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.JamFragment"
+            android:label="@string/title_activity_jam_fragment" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.WifiFragment"
+            android:label="@string/title_activity_wifi_fragment" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.LiveMusicFragment"
+            android:label="@string/title_activity_live_music_fragment" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.ChatimeActivity"
+            android:label="@string/title_activity_chatime" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.JankActivity"
+            android:label="@string/title_activity_jank" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.LacasaActivity"
+            android:label="@string/title_activity_lacasa" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.TaichanrengActivity"
+            android:label="@string/title_activity_taichanreng" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.TaiwanActivity"
+            android:label="@string/title_activity_taiwan" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.OmgantengActivity"
+            android:label="@string/title_activity_omganteng" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.BurgerActivity"
+            android:label="@string/title_activity_burger" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.KfcActivity"
+            android:label="@string/title_activity_kfc" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.TajmahalActivity"
+            android:label="@string/title_activity_tajmahal" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.CoffeeActivity"
+            android:label="@string/title_activity_coffee" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.DunkinActivity"
+            android:label="@string/title_activity_dunkin" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.DonaldActivity"
+            android:label="@string/title_activity_donald" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.SouthActivity"
+            android:label="@string/title_activity_south" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.MeetupActivity"
+            android:label="@string/title_activity_meetup" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.GunzActivity"
+            android:label="@string/title_activity_gunz" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.BingenActivity"
+            android:label="@string/title_activity_bingen" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.YorkActivity"
+            android:label="@string/title_activity_york" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.HompizActivity"
+            android:label="@string/title_activity_hompiz" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.SriwijayaActivity"
+            android:label="@string/title_activity_sriwijaya" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.StarbuckActivity"
+            android:label="@string/title_activity_starbuck" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.NarsisActivity"
+            android:label="@string/title_activity_narsis" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.UpnormalActivity"
+            android:label="@string/title_activity_upnormal" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.HotspotActivity"
+            android:label="@string/title_activity_hotspot" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.BasenglaActivity"
+            android:label="@string/title_activity_basengla" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.AbaActivity"
+            android:label="@string/title_activity_aba" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.FlowerActivity"
+            android:label="@string/title_activity_flower" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyC9DwpI5PGE15wnHrvR4FxBY3fuCA2fgBw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="contoh.ngecafeyuk.PosChatimeActivity"
+            android:label="@string/title_activity_pos_chatime" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosTaiwanActivity"
+            android:label="@string/title_activity_pos_taiwan" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosTaigor"
+            android:label="@string/title_activity_pos_taigor" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosTaiGanteng"
+            android:label="@string/title_activity_pos_tai_ganteng" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosTaiwan"
+            android:label="@string/title_activity_pos_taiwan" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosAbah"
+            android:label="@string/title_activity_pos_abah" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosBasengla"
+            android:label="@string/title_activity_pos_basengla" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosBingen"
+            android:label="@string/title_activity_pos_bingen" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosBurger"
+            android:label="@string/title_activity_pos_burger" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosCoffee"
+            android:label="@string/title_activity_pos_coffee" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosDonald"
+            android:label="@string/title_activity_pos_donald" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosDunkin"
+            android:label="@string/title_activity_pos_dunkin" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosFlower"
+            android:label="@string/title_activity_pos_flower" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosGunz"
+            android:label="@string/title_activity_pos_gunz" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosHompiz"
+            android:label="@string/title_activity_pos_hompiz" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosHotspot"
+            android:label="@string/title_activity_pos_hotspot" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosJank"
+            android:label="@string/title_activity_pos_jank" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosKfc"
+            android:label="@string/title_activity_pos_kfc" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosLacasa"
+            android:label="@string/title_activity_pos_lacasa" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosMeetup"
+            android:label="@string/title_activity_pos_meetup" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosNarsis"
+            android:label="@string/title_activity_pos_narsis" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosSouth"
+            android:label="@string/title_activity_pos_south" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosSriwijaya"
+            android:label="@string/title_activity_pos_sriwijaya" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosStarbucks"
+            android:label="@string/title_activity_pos_starbucks" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosTajmahal"
+            android:label="@string/title_activity_pos_tajmahal" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosUpnormal"
+            android:label="@string/title_activity_pos_upnormal" >
+        </activity>
+        <activity
+            android:name="contoh.ngecafeyuk.PosYork"
+            android:label="@string/title_activity_pos_york" >
+        </activity>
+    </application>
+
+</manifest>

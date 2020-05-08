@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#424142" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/vertical_scrollview_bg"
+        android:scrollbarTrackVertical="@drawable/vertical_scrollview_line" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ViewFlipper
+                android:id="@+id/flipper1"
+                android:layout_width="fill_parent"
+                android:layout_height="170dp"
+                android:layout_centerInParent="true"
+                android:flipInterval="3000"
+                android:inAnimation="@anim/slide_in_right"
+                android:outAnimation="@anim/slide_out_left" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/tvCafe1"
+                    android:src="@drawable/gunz1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/tvCafe1"
+                    android:src="@drawable/gunz2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/tvCafe1"
+                    android:src="@drawable/gunz3" />
+             
+            </ViewFlipper>
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_gravity="center"
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/str_tv_start"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:background="@drawable/btn_selector2"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout 
+	            android:layout_width="280dp"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	           	android:layout_gravity="center"
+	           	android:paddingTop="7dp"
+	           	android:paddingBottom="12dp"
+	            android:background="@drawable/layout2" >
+                
+	
+	            <TextView
+	                android:id="@+id/tv1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:fontFamily="OpenSans_CondLight"
+	                android:gravity="center"
+	                android:text="@string/tvMus3"
+	                android:textColor="#212121"
+	                android:textSize="23sp"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/tv2"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:paddingTop="4dp"
+	                android:text="JL TASIK NO 6"
+	                android:textAlignment="center"
+	                android:textColor="#757575"
+	                android:textSize="12sp" />
+	
+	            <View
+	                android:layout_width="225dp"
+	                android:layout_height="1dp"
+	                android:layout_gravity="center"
+	                android:layout_marginBottom="5dp"
+	                android:layout_marginTop="8dp"
+	                android:background="#e0e0e0" />
+	            
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:orientation="horizontal">
+	
+	                <Button
+	                    android:id="@+id/call"
+	                    android:layout_width="50dp"
+	                    android:layout_height="50dp"
+	                    android:background="@drawable/circle2"
+	                    android:drawableTop="@drawable/phonefh"
+	                    android:paddingTop="17dp"
+	                    android:onClick="panggil"/>
+	
+	                <Button
+	                    android:id="@+id/clock"
+	                    android:layout_width="50dp"
+	                    android:layout_height="50dp"
+	                    android:layout_marginLeft="10dp"
+	                    android:background="@drawable/circle2"
+	                    android:drawableTop="@drawable/clockh"
+	                    android:paddingTop="17dp" 
+	                    android:onClick="jam"/>
+
+	                <Button
+	                    android:id="@+id/money"
+	                    android:layout_width="50dp"
+	                    android:layout_height="50dp"
+	                    android:layout_marginLeft="10dp"
+	                    android:layout_marginTop="3dp"
+	                    android:background="@drawable/circle2"
+	                    android:drawableTop="@drawable/mon"
+	                    android:onClick="harga"
+	                    android:paddingTop="12dp" />
+
+	                <Button
+	                    android:id="@+id/place"
+	                    android:layout_width="50dp"
+	                    android:layout_height="50dp"
+	                    android:layout_marginLeft="10dp"
+	                    android:background="@drawable/circle2"
+	                    android:drawableTop="@drawable/posfh2"
+	                    android:onClick="posisi"
+	                    android:paddingTop="17dp" />
+
+	            </LinearLayout>
+	
+	            <View
+	                android:layout_width="225dp"
+	                android:layout_height="1dp"
+	                android:layout_gravity="center"
+	                android:layout_marginTop="8dp"
+	                android:background="#e0e0e0" />
+	        	</LinearLayout>
+	            
+           		<LinearLayout 
+           		    android:id="@+id/detail"
+		            android:layout_width="280dp"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		           	android:layout_marginBottom="8dp"
+		           	android:layout_gravity="center"
+		           	android:paddingTop="3dp"
+		           	android:paddingBottom="10dp"
+		            android:background="@drawable/layout2"
+		            android:visibility="gone" >
+	            
+           		    <TextView 
+           		        android:id="@+id/text"
+           		        android:layout_width="wrap_content"
+           		        android:layout_height="wrap_content"
+           		        android:layout_gravity="center"
+           		        android:text="JAM BUKA : 10.00 - 22.00 WIB"
+           		        android:textColor="#616161"
+	                	android:textSize="12sp"/>
+	            
+            	</LinearLayout>
+            	
+           		<LinearLayout 
+           		    android:id="@+id/menu"
+		            android:layout_width="280dp"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		           	android:layout_gravity="center"
+		           	android:paddingTop="10dp"
+		           	android:paddingBottom="10dp"
+		           	android:layout_marginTop="8dp"
+		            android:background="@drawable/layout2">
+	            
+           		    <TextView 
+           		        android:id="@+id/txtMenu"
+           		        android:layout_width="wrap_content"
+           		        android:layout_height="wrap_content"
+           		        android:layout_gravity="center"
+           		        android:text="MENU TERFAVORIT"
+           		        android:textColor="#424242"
+	                	android:textSize="15sp"/>
+           		    
+           		    <View
+		                android:layout_width="225dp"
+		                android:layout_height="1dp"
+		                android:layout_gravity="center"
+		                android:layout_marginTop="5dp"
+		                android:background="#e0e0e0" />
+
+           		    <ImageView 
+           		        android:layout_width="wrap_content"
+           		        android:layout_height="100dp"
+           		        android:layout_gravity="center"
+           		        android:layout_marginTop="5dp"
+           		        android:src="@drawable/guns"/>"
+           		        
+            	</LinearLayout>
+	       </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+           
